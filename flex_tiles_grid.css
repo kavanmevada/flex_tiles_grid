@@ -1,0 +1,49 @@
+.as-grid-con {
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.as-main-tile {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: block;
+  position: relative;
+}
+
+.as-tile-big {
+  height: 100%;
+  width: 100%;
+}
+
+.as-tile-small {
+  height: 50%;
+  width: 100%;
+}
+
+
+.as-tile {
+    float: left;
+    position: relative;
+}
+
+.as-tile > .inner-padding {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+}
+
+.overlay-effect {
+  height: 100%;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay-effect .overlay {
+    text-align: center;
+}
